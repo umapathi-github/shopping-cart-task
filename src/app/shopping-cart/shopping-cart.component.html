@@ -1,0 +1,10 @@
+<div class="shopping_cart_container">
+    <h4>Cart Items</h4>
+    <div *ngFor="let product of products">
+        <div *ngIf="product" class="d-flex justify-content-between align-items-center cart_items">
+            <p class="m-0">{{product.productName}}</p>
+            <p class="m-0">{{product.num}}</p>
+        </div>
+    </div>
+    <p class="empty_msg" *ngIf="products.length == 0">No Cart items</p>
+</div>

@@ -1,0 +1,33 @@
+.products_list {
+    margin-bottom: 10px;
+    flex-basis: 25%;
+    .products_item {
+        background: #f5f1ef;
+        padding: 10px;
+        margin-right: 5px;
+        margin-left: 5px;
+        min-height: 115px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+    .stock_out {
+        font-size: 12px;
+    }
+    .add_cart_buttons {
+        background: #7ca4ab;
+        padding: 5px;
+        color: #fff;
+        button {
+            border: none;
+            background: #fff;
+            font-size: 18px;
+            line-height: normal;
+            width: 20px;
+            height: 20px;
+            &:hover {
+                background: #4f7b82;
+                color: #fff;
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.form_container {
+    margin: 0 auto;
+    width: 520px;
+    background: #f6f6f6;
+    padding: 20px;
+    border-radius: 5px;
+}
+.form_field {
+    margin-bottom: 15px;
+}
+.form_field label {
+    min-width: 140px;
+    display: inline-block;
+}
+.form_field input {
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 5px;
+}
+.form_field input:focus {
+    outline: none;
+}
+.add_product_btn {
+    background: #4f7b82;
+    border: none;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+.add_product_btn[disabled] {
+    cursor: default;
+    opacity: 50%;
+}
+.cart_container {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin-right: 20px;
+}
